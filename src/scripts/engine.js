@@ -19,9 +19,9 @@ const state = {
     gameTime: null,
     audio: {
       gameover: {
-        obj: new Audio("/src/audios/gameover.wav"),
+        obj: new Audio("./src/audios/gameover.wav"),
       },
-      hit: { obj: new Audio("/src/audios/hit.mp3"), volume: 0.2 },
+      hit: { obj: new Audio("./src/audios/hit.mp3"), volume: 0.2 },
     },
     speedInc: 75,
   },
